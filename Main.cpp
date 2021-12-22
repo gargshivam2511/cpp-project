@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    sList<string> ls;
+    sList<string> ls(sList<string>::QUEUE);
     ls.push("a");
     ls.push("b");
     ls.push("c");
